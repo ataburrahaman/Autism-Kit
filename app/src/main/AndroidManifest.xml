@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.atabur.autismkit">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="AutismKit"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".CheckingActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".welcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".homeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".profileActivity" />
+        <activity android:name=".LebelBordActivity" />
+        <activity android:name=".QuizeActivity" />
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".imageQuizeActivity" />
+        <activity android:name=".ImageLevelShow" />
+        <activity android:name=".imageLavel" />
+        <activity android:name=".WordLavel1Result" />
+        <activity android:name=".WordLavel2Result" />
+        <activity android:name=".WordLavel3Result" />
+        <activity android:name=".ImageLavel1Result" />
+        <activity android:name=".ImageLavel2Result"></activity>
+    </application>
+
+</manifest>

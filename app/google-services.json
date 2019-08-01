@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "895018191900",
+    "firebase_url": "https://autismkit-e9dff.firebaseio.com",
+    "project_id": "autismkit-e9dff",
+    "storage_bucket": "autismkit-e9dff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895018191900:android:c651b4c529dd2991",
+        "android_client_info": {
+          "package_name": "com.example.atabur.autismkit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895018191900-ftpls7gedi8brce26h554r7c6si98t4i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.atabur.autismkit",
+            "certificate_hash": "6b17065e54f126356391fe7dd25b6195a05fa3a9"
+          }
+        },
+        {
+          "client_id": "895018191900-bl2e7nq7dn3ksvidej8dd2gjqkdcsg49.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu3l_ObyfjMFGVTNuupG-bATZ2xRvTBpw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895018191900-bl2e7nq7dn3ksvidej8dd2gjqkdcsg49.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
